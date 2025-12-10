@@ -45,8 +45,8 @@ function dashboard_looking_fine() {
 
 		.loginwrap {
 			/* Use the SVG as a mask */
-/* 			-webkit-mask-image: url('<?php echo esc_url( get_stylesheet_directory_uri() . '/images/mask.svg' ); ?>');
-			mask-image: url('<?php echo esc_url( get_stylesheet_directory_uri() . '/images/mask.svg' ); ?>');
+/* 			-webkit-mask-image: url('<?php echo esc_url( get_stylesheet_directory_uri() . '/mask.svg' ); ?>');
+			mask-image: url('<?php echo esc_url( get_stylesheet_directory_uri() . '/mask.svg' ); ?>');
 			-webkit-mask-size: contain;
 			mask-size: contain;
 			-webkit-mask-repeat: no-repeat;
@@ -88,7 +88,7 @@ function dashboard_looking_fine() {
 		}
 
 		body.login {
-			background: url(<?php echo esc_url( get_stylesheet_directory_uri() . '/images/login-splash.jpg' ); ?>) no-repeat center center fixed;
+			background: url(<?php echo esc_url( get_stylesheet_directory_uri() . '/login-splash.jpg' ); ?>) no-repeat center center fixed;
 			background-color: black;
 			background-size: cover;
 			display: flex;
